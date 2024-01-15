@@ -222,3 +222,37 @@ font-weight: 800;
 text-transform: capitalize;
 
 }
+/* destinaton section end  */
+
+
+/* choosus section start  */
+.choosus{
+    margin: 100px 0;
+}
+.card *{
+    padding: 16px 0px;
+}
+.card{
+    padding: 32px;
+    border-radius: 16px;
+    width: 573px;
+}
+.active-card{
+   
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+.active2-card{
+border: 1px solid rgba(41, 206, 246, 0.20);
+background: rgba(41, 206, 246, 0.05);
+}
+.row2{
+    display: flex;
+    margin: auto;
+    border-radius: 16px;
+    width: 573px;
+border: 1px solid rgba(233, 68, 68, 0.20);
+background: rgba(233, 68, 68, 0.05);
+}
+
+/* .choosus section end  */
