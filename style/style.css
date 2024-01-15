@@ -1,140 +1,189 @@
-@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&display=swap");
 
 /* universal selector  */
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Mulish', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Mulish", sans-serif;
 }
-.container{
-    width: 80%;
-    margin: auto;
-    max-width: 1440px;
+.container {
+  width: 80%;
+  margin: auto;
+  max-width: 1440px;
 }
-img{
-    max-width: 100%;
+img {
+  max-width: 100%;
 }
-.btn-primary{
-    border-radius: 8px;
-background: #FF5400;
+.btn-primary {
+  border-radius: 8px;
+  background: #ff5400;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 800;
+  padding: 15px 35px;
+  margin: 40px auto;
 }
 
-.auto-title{
-    margin: auto;
-    text-align: center;
-    width: 60%;
-    margin: auto;
+.auto-title {
+  margin: auto;
+  text-align: center;
+  width: 60%;
+  margin: auto;
 }
-.auto-title h1{
-    color: #FFF;
-font-size: 64px;
-font-weight: 800;
+.auto-title h1 {
+  color: #fff;
+  font-size: 64px;
+  font-weight: 800;
 }
-.auto-title p{
-    color: #FFF;
-font-size: 16px;
-font-weight: 400;
-line-height: 26px; /* 162.5% */
+p {
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.auto-title p {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
 }
 /* navigation  */
-.nav-logo{
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
+.nav-logo {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
 }
-.nav-title{
-    text-wrap: nowrap;
-    color: #131318;
-font-size: 36px;
-font-weight: 800;
+.nav-title {
+  text-wrap: nowrap;
+  color: #131318;
+  font-size: 36px;
+  font-weight: 800;
 }
-.active-title{
-    color: #FF5400;
-font-size: 36px;
-font-weight: 800;
+.active-title {
+  color: #ff5400;
+  font-size: 36px;
+  font-weight: 800;
 }
 
-.main-nav > ul{
-    display: flex;
+.main-nav > ul {
+  display: flex;
 }
-.main-nav > ul li{
-    list-style: none;
-    margin-left: 3rem;
+.main-nav > ul li {
+  list-style: none;
+  margin-left: 3rem;
 }
-.main-nav>ul li a{
-    text-decoration: none;
-    color: #424247;
-font-size: 18px;;
-font-weight: 700;
-text-transform: capitalize;
-transition: 0.5s;
+.main-nav > ul li a {
+  text-decoration: none;
+  color: #424247;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: capitalize;
+  transition: 0.5s;
 }
-.main-nav>ul li a:hover{
-    color: #FF5400;
+.main-nav > ul li a:hover {
+  color: #ff5400;
 }
-.main-nav>ul li a.active-nav{
-    color: #FF5400;
-    font-size: 18px;
-    font-weight: 700;
+.main-nav > ul li a.active-nav {
+  color: #ff5400;
+  font-size: 18px;
+  font-weight: 700;
 }
-.nav-var{
-    font-size: 25px;
-    font-weight: 700;
-    display: none;
+.nav-var {
+  font-size: 25px;
+  font-weight: 700;
+  display: none;
 }
-.navigation{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 3rem 0;
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 0;
 }
 
 /* banner section  */
-.banner{
-    background:linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../Images/banner.png'); 
-    background-repeat: no-repeat;
-    background-position: center;
-    border-radius: 1rem;
-    height: 500px;
-    max-width:1440px;
+.banner {
+  background: linear-gradient(
+      180deg,
+      rgba(19, 19, 24, 0.8) 0%,
+      rgba(19, 19, 24, 0) 100%
+    ),
+    url("../Images/banner.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 1rem;
+  height: 500px;
+  max-width: 1440px;
 }
 .select-option {
-    text-align: center;
-    background: rgba(255, 255, 255, 0.30);
-    padding: 16px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.3);
+  padding: 16px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  border-radius: 8px;
+  width: 80%;
+}
+.select {
+  color: rgba(19, 19, 24, 0.5);
+  font-size: 16px;
+  font-weight: 400;
+  padding: 16px 60px 16px 16px;
+  border-radius: 8px;
+  text-transform: capitalize;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  margin: 0 16px;
+}
+select > option {
+  color: rgba(19, 19, 24, 0.5);
+  font-size: 16px;
+  font-weight: 400;
+  border: none;
+  outline: none;
+  text-transform: capitalize;
+}
+.select-active {
+  background: #ff5400;
+  color: #fff;
+  text-align: center;
+}
+.banner-content {
+  padding: 100px 0px;
+}
+/* banner section end  */
+
+
+/* popular section  */
+
+.popular{
+    margin: 100px 0px;
+}
+.column h1{
+    color: #131318;
+font-size: 40px;
+font-weight: 800;
+padding: 25px 0px;
+}
+
+.column img{
     display: flex;
-    justify-content: center;
     margin: auto;
-    border-radius: 8px;
-    width: 80%;
 }
-.select{
-    color: rgba(19, 19, 24, 0.50);
-    font-size: 16px;
-    font-weight: 400;
-    padding: 16px 60px 16px 16px;
-    border-radius: 8px;
-    text-transform: capitalize;
-    border-radius: 8px;
-    border: none;
-    outline: none;
-    margin: 0 16px;
-   
+/* universal  */
+.column ul li{
+    margin: 20px;
 }
-select>option{
-    color: rgba(19, 19, 24, 0.50);
-    font-size: 16px;
-    font-weight: 400;
-    border: none;
-    outline: none;
-    text-transform: capitalize; 
+.column{
+    width: 50%;
 }
-.select-active{
-background: #FF5400;
-color: #fff;
-text-align: center;
+.flexiable{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
 }
-.banner-content{
-    padding: 100px 0px;
-}
+/* universal  */

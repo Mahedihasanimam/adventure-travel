@@ -33,6 +33,13 @@
     .banner{
         height: 700px;
     }
+    .flexiable{
+        flex-direction: column;
+    }
+    .column{
+        width: 100%;
+    }
+    
 }
 @media screen and (min-width:575px) and (max-width:992px) {
     
@@ -60,4 +67,11 @@
     .banner{
         height: 700px;
     }
+    .flexiable{
+        flex-direction: column;
+    }
+    .column{
+        width: 100%;
+    }
+    
 }
