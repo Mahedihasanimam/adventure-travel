@@ -1,0 +1,20 @@
+
+@media screen and (max-width:992px) {
+    
+}
+
+@media screen and (max-width:575px) {
+    .main-nav ul{
+        display: none;
+    }
+    .nav-var{
+        display: block;
+    }
+    .nav-title,.active-title{
+        font-size: 1rem;
+        text-wrap: wrap;
+    }
+    .nav-logo{
+        align-items: center;
+    }
+}
