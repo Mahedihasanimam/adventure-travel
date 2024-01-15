@@ -1,7 +1,5 @@
 
-@media screen and (max-width:992px) {
-    
-}
+
 
 @media screen and (max-width:575px) {
     .main-nav ul{
@@ -16,5 +14,50 @@
     }
     .nav-logo{
         align-items: center;
+    }
+    .select-option{
+        flex-direction: column;
+    }
+    .auto-title h1{
+        font-size: 22px;
+    }
+    .auto-title p{
+        font: 14px;
+    }
+    .banner-content{
+        padding: 25px 0px;
+    }
+    .select{
+        margin: 16px;
+    }
+    .banner{
+        height: 700px;
+    }
+}
+@media screen and (min-width:575px) and (max-width:992px) {
+    
+    .select-option{
+        flex-direction: column;
+    }
+    .main-nav ul{
+        display: none;
+    }
+    .nav-var{
+        display: block;
+    }
+    .auto-title h1{
+        font-size: 22px;
+    }
+    .auto-title p{
+        font: 14px;
+    }
+    .banner-content{
+        padding: 25px 0px;
+    }
+    .select{
+        margin: 16px;
+    }
+    .banner{
+        height: 700px;
     }
 }
