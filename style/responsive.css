@@ -18,6 +18,9 @@
     .select-option{
         flex-direction: column;
     }
+    .auto-title{
+        width: 100%;
+    }
     .auto-title h1{
         font-size: 22px;
     }
@@ -48,6 +51,22 @@
     }
     .card,.row2{
         width: 100%;
+    }
+    .deal-box{
+        width: 80%;
+    padding:0px 25px;
+    }
+    .deal-box * {
+        margin: 8px 0px;
+    }
+    .formobile{
+        display: none;
+    }
+    .off{
+        padding: 14px 16px;
+    }
+    .off h3{
+        font-size: 20px;
     }
 }
 @media screen and (min-width:575px) and (max-width:992px) {
@@ -61,6 +80,9 @@
     .nav-var{
         display: block;
     }
+    .auto-title{
+        width: 100%;
+    }
     .auto-title h1{
         font-size: 22px;
     }
@@ -92,5 +114,19 @@
     .card,.row2{
         width: 100%;
     }
-    
+    .deal-box{
+        width: fit-content;
+    }
+    .deal-box * {
+        margin: 8px 0px;
+    }
+    .formobile{
+        display: none;
+    }
+    .off{
+        padding: 14px 16px;
+    }
+    .off h3{
+        font-size: 20px;
+    }
 }
