@@ -2,6 +2,9 @@
 
 
 @media screen and (max-width:575px) {
+    .container{
+        width: 95%;
+    }
     .main-nav ul{
         display: none;
     }
@@ -33,6 +36,10 @@
     .select{
         margin: 16px;
     }
+    .select-option{
+        padding: 0px;
+        width: 90%;
+    }
     .banner{
         height: 700px;
     }
@@ -41,6 +48,7 @@
     }
     .column{
         width: 100%;
+        margin-bottom: 20px;
     }
     .first-row{
         flex-direction: column;
@@ -54,7 +62,7 @@
     }
     .deal-box{
         width: 80%;
-    padding:0px 6px;
+    padding:8px 16px;
     }
     .dealbox-top{
         gap: 0px;
@@ -88,9 +96,13 @@
     }
 }
 @media screen and (min-width:575px) and (max-width:992px) {
-    
+    .container{
+        width: 95%;
+    }
     .select-option{
         flex-direction: column;
+        padding: 0px;
+        width: 90%;
     }
     .main-nav ul{
         display: none;
@@ -121,6 +133,7 @@
     }
     .column{
         width: 100%;
+        margin-bottom: 20px;
     }
     .first-row{
         flex-direction: column;
@@ -134,7 +147,7 @@
     }
     .deal-box{
         width: fit-content;
-        padding: 0px 6px;
+        padding: 8px 16px;
     }
     .deal-box * {
         margin: 8px 0px;
