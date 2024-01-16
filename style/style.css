@@ -378,3 +378,34 @@ font-weight: 400;
 font-size: 32px;
 font-weight: 800;
 }
+
+/* off section end  */
+
+/* .footer section start  */
+.footer-content *{
+  padding: 10px 0;
+}
+.footer-content{
+  margin: auto;
+  text-align: center;
+  padding: 100px 0px;
+}
+.social-icon{
+  font-size: 24px;
+  border-bottom:1px solid rgba(19, 19, 24, 0.10);
+  margin-bottom: 50px;
+  padding-bottom: 50px;
+}
+.social-icon a{
+  padding:0px 20px ;
+}
+.social-icon a i{
+  color: #131318
+}
+.footer-botom{
+  padding: 50px ;
+}
+footer{
+  background: rgba(19, 19, 24, 0.05);
+
+}
