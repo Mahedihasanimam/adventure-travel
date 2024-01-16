@@ -54,7 +54,22 @@
     }
     .deal-box{
         width: 80%;
-    padding:0px 25px;
+    padding:0px 6px;
+    }
+    .dealbox-top{
+        gap: 0px;
+    }
+    .deal-box span{
+        margin-left: 5px;
+    }
+    .diffrnt-dealbox span{
+        margin-left: 5px;
+    }
+    .top-title{
+        font-size: 16px;
+    }
+    .bottom-tile{
+        font-size: 16px;
     }
     .deal-box * {
         margin: 8px 0px;
@@ -67,6 +82,9 @@
     }
     .off h3{
         font-size: 20px;
+    }
+    .flexiable{
+        gap: 0px;
     }
 }
 @media screen and (min-width:575px) and (max-width:992px) {
@@ -116,6 +134,7 @@
     }
     .deal-box{
         width: fit-content;
+        padding: 0px 6px;
     }
     .deal-box * {
         margin: 8px 0px;
@@ -128,5 +147,8 @@
     }
     .off h3{
         font-size: 20px;
+    }
+    .flexiable{
+        gap: 0px;
     }
 }

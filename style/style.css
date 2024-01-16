@@ -15,6 +15,10 @@
 img {
   max-width: 100%;
 }
+video{
+  width: 100%;
+  border-radius: 16px;
+}
 .btn-primary {
   border-radius: 8px;
   background: #ff5400;
@@ -155,6 +159,14 @@ select > option {
   padding: 100px 0px;
 }
 /* banner section end  */
+
+/* about us section start  */
+.about-us{
+  margin: 100px 0px;
+}
+.about-image{
+  border-radius: 8px;
+}
 
 
 /* popular section  */
